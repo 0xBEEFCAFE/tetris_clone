@@ -122,14 +122,14 @@ class Tetris(object):
 		time.sleep(0.01)
 
 def main():
-	duck = pygame.image.load("clean_16.png").convert_alpha()
+	duck = pygame.image.load("duck.png").convert_alpha()
 	duck_img_width, duck_img_height = duck.get_size()
 	duck_xpos = 0
 	duck_ypos = 0
 	duck_step_x = 1
 	duck_step_y = 1
 	
-	pig = pygame.image.load("dirty_16.png").convert_alpha()
+	pig = pygame.image.load("pig.png").convert_alpha()
 	pig_img_width, pig_img_height = pig.get_size()
 	pig_xpos = screen_width-pig_img_width
 	pig_ypos = screen_height-pig_img_height
